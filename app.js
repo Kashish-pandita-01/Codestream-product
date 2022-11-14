@@ -38,4 +38,12 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.listen(3002, ()=>{
+
+  console.log("Server is runnig on port 3002")
+
+})
+
 module.exports = app;
+
+//these are required changes
